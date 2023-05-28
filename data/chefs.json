@@ -37,8 +37,8 @@
   },
   {
     "id":5,
-    "name": "https://media.licdn.com/dms/image/C5622AQH0xP6hn5HNyQ/feedshare-shrink_2048_1536/0/1591530849174?e=2147483647&v=beta&t=gI9nTaBuhGKWyd-SiNv9q0KPUaRdcWoafjNVvPJquD8",
-    "picture": "amit_verma.jpg",
+    "name": "Amit Varma",
+    "picture": "https://media.licdn.com/dms/image/C5622AQH0xP6hn5HNyQ/feedshare-shrink_2048_1536/0/1591530849174?e=2147483647&v=beta&t=gI9nTaBuhGKWyd-SiNv9q0KPUaRdcWoafjNVvPJquD8",
     "years_of_experience": 10,
     "numbers_of_recipes": 120,
     "likes": 4500,

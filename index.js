@@ -10,12 +10,15 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
 
 app.get("/chefs", (req, res) => {
   res.send(chefs);
+});
+
+app.get("/chefs/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  const selectedChefs = chefs.find((chef) => parseInt(chef.id) === id);
+  res.send(selectedChefs);
 });
 
 app.listen(port, () => {
